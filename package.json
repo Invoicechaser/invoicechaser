@@ -1,0 +1,40 @@
+{
+  "name": "invoicechaser",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@supabase/ssr": "^0.5.2",
+    "@supabase/supabase-js": "^2.45.4",
+    "next": "15.0.3",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "stripe": "^17.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5"
+  }
+}
+```
+
+**Click "Commit changes"**
+
+---
+
+### **2. `.env.local`** (WICHTIG!)
+
+**Filename:** `.env.local`
+```
+NEXT_PUBLIC_SUPABASE_URL=https://vyuyarljkhohosaftbhd.supabase.co
+NEXT_PUBLIC_SUPABASE_ANON_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InZ5dXlhcmxqa2hvaG9zYWZ0YmhkIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjMxMzczNDQsImV4cCI6MjA3ODcxMzM0NH0.MaDex3YVHAfmwIgoN95qKlV50oxJtaItrvBtcs5wWlc
+NEXT_PUBLIC_APP_URL=http://localhost:3000
